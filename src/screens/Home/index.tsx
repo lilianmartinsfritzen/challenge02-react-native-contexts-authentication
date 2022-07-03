@@ -57,7 +57,11 @@ export function Home() {
 
   function handleChangeInputText(text: string) {
     // Update searchText value
-    !text ? setSearchListData(data) : setSearchText(text)
+    if(!text) {
+      setSearchListData(data)
+    }
+
+    setSearchText(text)
   }
 
   useFocusEffect(useCallback(() => {
