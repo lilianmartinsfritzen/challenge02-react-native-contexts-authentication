@@ -47,6 +47,12 @@ export function Home() {
 
   function handleFilterLoginData() {
     // Filter results inside data, save with setSearchListData
+    const searchData = searchListData.filter(data => {
+      if(data.service_name.includes(searchText)) {
+        return data
+      }
+    })
+    setSearchListData(searchData)
   }
 
   function handleChangeInputText(text: string) {
