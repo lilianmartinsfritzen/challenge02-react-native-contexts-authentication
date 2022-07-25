@@ -30,7 +30,7 @@
 <br>
 
 <h2 id="desafio">
-  🚀 DESAFIOS III - IGNITE <a href="https://www.rocketseat.com.br/">Rocketseat
+  🚀 DESAFIO III - IGNITE <a href="https://www.rocketseat.com.br/">Rocketseat
 </a>
 </h2>
 
@@ -43,7 +43,7 @@
 
 <br>
 <hr>
-<h3 id="I">📱 DESAFIO I</h3>
+<h3 id="I">📱 Desafio SavePass</h3>
 
 - [x] Carregar informações salvas no AsyncStorage
 
