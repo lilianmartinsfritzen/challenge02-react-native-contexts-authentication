@@ -35,14 +35,14 @@ export const TextContainer = styled.View`
 `;
 
 export const HelloMessage = styled.Text`
-  font-size: ${RFValue(20)}px;
+  font-size: ${RFValue(18)}px;
   line-height: ${RFValue(26)}px;
   font-family: 'Rubik_300Light';
   color: #ffffff;
 `;
 
 export const BoldText = styled.Text`
-  font-size: ${RFValue(20)}px;
+  font-size: ${RFValue(18)}px;
   line-height: ${RFValue(26)}px;
   font-family: 'Rubik_500Medium';
   color: #ffffff;
